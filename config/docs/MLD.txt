@@ -1,0 +1,28 @@
+USERS
+- id
+- nom
+- prenom
+- email
+- password
+- telephone
+- role
+
+AGENCES
+- id
+- nom
+
+TRAJETS
+- id
+- user_id
+- depart_agence_id
+- arrivee_agence_id
+- date_depart
+- date_arrivee
+- places_total
+- places_disponibles
+
+RESERVATIONS
+- id
+- user_id
+- trajet_id
+- nombre_places
