@@ -1,0 +1,22 @@
+TABLE utilisateurs
+- id
+- nom
+- prenom
+- email
+- telephone
+- mot_de_passe
+- role
+
+TABLE agences
+- id
+- ville
+
+TABLE trajets
+- id
+- depart_agence_id
+- arrivee_agence_id
+- date_depart
+- date_arrivee
+- places_total
+- places_disponibles
+- utilisateur_id
